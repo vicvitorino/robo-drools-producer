@@ -1,0 +1,10 @@
+server:
+    servlet:
+        contextPath: /rest
+    port: 8182
+
+spring:
+    artemis:
+        broker-url: tcp://localhost:61616
+        user: admin
+        password: admin
